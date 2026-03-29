@@ -15,15 +15,15 @@ LongPersonality = log.LongitudinalPersonality
 FOLLOW_BREAKPOINTS =          [0.,   3.,   6.,   10.,  15.,  20.,  27.,  35.,  40.]
 
 FOLLOW_PROFILES = {
-  LongPersonality.relaxed:    [1.72, 1.74, 1.76, 1.78, 1.80, 1.84, 1.90, 1.96, 2.00],
-  LongPersonality.standard:   [1.40, 1.41, 1.43, 1.45, 1.47, 1.49, 1.51, 1.54, 1.56],
-  LongPersonality.aggressive: [1.06, 1.07, 1.09, 1.11, 1.13, 1.15, 1.18, 1.20, 1.21],
+  LongPersonality.relaxed:    [1.60, 1.63, 1.66, 1.70, 1.75, 1.80, 1.87, 1.94, 2.00],
+  LongPersonality.standard:   [1.28, 1.30, 1.33, 1.37, 1.41, 1.45, 1.49, 1.52, 1.56],
+  LongPersonality.aggressive: [0.95, 0.97, 1.00, 1.04, 1.08, 1.12, 1.16, 1.19, 1.21],
 }
 
 SMOOTHING_BASE            = 0.88
 SMOOTHING_RANGE           = 0.08
 SMOOTHING_SPEED_THRESHOLD = 36.0
-SMOOTHING_ERROR_SCALE     = 0.02
+SMOOTHING_ERROR_SCALE     = 0.05
 SMOOTHING_MAX             = 0.97
 PERSONALITY_CHANGE_COOLDOWN_S = 2.0
 
