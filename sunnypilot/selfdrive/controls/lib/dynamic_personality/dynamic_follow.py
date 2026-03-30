@@ -36,7 +36,8 @@ class FollowDistanceController:
     self.first_run = True
     self.personality_change_cooldown = 0
     self.personality_cooldown_frames = int(PERSONALITY_CHANGE_COOLDOWN_S / DT_MDL)
-    self._personality = self.params.get('LongitudinalPersonality') or LongPersonality.standard
+    val = self.params.get('LongitudinalPersonality')
+    self._personality = val if val is not None else LongPersonality.standard
     self._enabled = self.params.get_bool('DynamicFollow')
 
   def _get_smoothing_factor(self, v_ego: float, target: float) -> float:
@@ -107,5 +108,6 @@ class FollowDistanceController:
     if self.personality_change_cooldown > 0:
       self.personality_change_cooldown -= 1
     if self.frame % max(1, int(1.0 / DT_MDL)) == 0:
-      self._personality = self.params.get('LongitudinalPersonality') or LongPersonality.standard
+      val = self.params.get('LongitudinalPersonality')
+      self._personality = val if val is not None else LongPersonality.standard
       self._enabled = self.params.get_bool('DynamicFollow')
