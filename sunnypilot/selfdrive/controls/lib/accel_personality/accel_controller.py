@@ -24,17 +24,17 @@ MAX_ACCEL_BREAKPOINTS =       [0.0,  3.0,  5.0,  8.0,  12.0, 18.0, 24.0, 32.0, 4
 # Decel profiles
 MIN_ACCEL_BREAKPOINTS =       [0.0,   1.0,   2.0,   4.0,   7.0,   11.0,  16.0,  22.0,  25.0]
 MIN_ACCEL_PROFILES = {
-  AccelPersonality.eco:       [-0.001,-0.001,-0.05, -0.11, -0.17, -0.22, -0.26, -0.30, -0.33],
-  AccelPersonality.normal:    [-0.001,-0.001,-0.06, -0.14, -0.20, -0.26, -0.31, -0.36, -0.40],
-  AccelPersonality.sport:     [-0.002,-0.002,-0.08, -0.17, -0.25, -0.31, -0.36, -0.41, -0.46],
+  AccelPersonality.eco:       [-0.001,-0.001,-0.04, -0.09, -0.14, -0.18, -0.22, -0.25, -0.28],
+  AccelPersonality.normal:    [-0.001,-0.001,-0.05, -0.11, -0.17, -0.22, -0.27, -0.31, -0.34],
+  AccelPersonality.sport:     [-0.002,-0.002,-0.06, -0.14, -0.21, -0.27, -0.32, -0.36, -0.38],
 }
 
-ACCEL_ALPHA_BASE  = 0.58
-ACCEL_ALPHA_MAX   = 0.82
+ACCEL_ALPHA_BASE  = 0.45
+ACCEL_ALPHA_MAX   = 0.72
 ACCEL_ALPHA_SCALE = 0.9
-DECEL_ALPHA_BASE  = 0.90
-DECEL_ALPHA_MIN   = 0.78
-DECEL_ALPHA_SCALE = -0.20
+DECEL_ALPHA_BASE  = 0.92
+DECEL_ALPHA_MIN   = 0.80
+DECEL_ALPHA_SCALE = -0.15
 MAX_DECEL_INCREASE_RATE = 0.05   # m/s³
 MAX_DECEL_DECREASE_RATE = 0.40   # m/s³
 
