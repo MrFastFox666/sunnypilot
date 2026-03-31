@@ -607,6 +607,7 @@ class CAR(Platforms):
         wheelbase=3.01,  # 118.5 inches
         steerRatio=14.0,  # Matches your log
     ),
+    flags=HyundaiFlags.EV,
 )
   GENESIS_G90 = HyundaiPlatformConfig(
     [HyundaiCarDocs("Genesis G90 2017-20", "All", car_parts=CarParts.common([CarHarness.hyundai_c]))],
