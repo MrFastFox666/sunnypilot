@@ -1150,14 +1150,21 @@ FW_VERSIONS = {
     ],
   },
   CAR.GENESIS_GV70_ELECTRIFIED_1ST_GEN: {
-    (Ecu.fwdCamera, 0x7c4, None): [
-      b'\xf1\x00JK1EMFC  AT AUS RHD 1.00 1.01 99211-DS100 220125',
-      b'\xf1\x00JK1EMFC  AT USA LHD 1.00 1.00 99211-IT100 220919',
-      b'\xf1\x00JK1EMFC  AT USA LHD 1.00 1.01 99211-IT100 230628',
-    ],
     (Ecu.fwdRadar, 0x7d0, None): [
-      b'\xf1\x00JKev SCC -----      1.00 1.01 99110-DS000         ',
+      b'\xf1\x00RG3_ SCC -----      1.00 1.02 99110-T1120         ',
+      b'\xf1\x00RGev SCC FHCUP      1.00 1.01 99110-JI010         ',
+      b'\xf1\x8b "\x04)',
+      b'\xf1\x10\x17\xdf\x01\x00',
     ],
+    (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00RG3 MFC  AT USA LHD 1.00 1.01 99211-T1200 230607',
+      b'\xf1\x00RG3EMFC  AT USA LHD 1.00 1.01 99211-JI010 210419',
+      b'\xf1\x8b "\x05&',
+    ],
+    (Ecu.cornerRadar, 0x7b7, None): [
+      b'\xf1\x00RG3 BCW RR 1.00 , 1.01 (u5E"\x006\x00\t',
+      b'\xf1\x8b "\x02\x05 "\x02\x05\x00\x00\x00\x00\x00\x00\x00\x00'
+    ],   
   },
   CAR.GENESIS_GV60_EV_1ST_GEN: {
     (Ecu.fwdCamera, 0x7c4, None): [
