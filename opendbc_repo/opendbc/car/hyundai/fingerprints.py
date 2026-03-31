@@ -549,6 +549,7 @@ FW_VERSIONS = {
     ],
     (Ecu.eps, 0x7d4, None): [
       b'\xf1\x00RG3 MDPS R 1.00 1.01 57700-JI400 1520',
+    ],
   },
   CAR.GENESIS_G90: {
     (Ecu.fwdRadar, 0x7d0, None): [
