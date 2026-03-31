@@ -600,13 +600,9 @@ class CAR(Platforms):
     [HyundaiCarDocs("Genesis G80 (2.5T Advanced Trim, with HDA II) 2024", "Highway Driving Assist II", car_parts=CarParts.common([CarHarness.hyundai_p]))],
     CarSpecs(mass=2060, wheelbase=3.00, steerRatio=14.0),
   )
-  GENESIS_G80_EV_HDA = HyundaiCanFDPlatformConfig(
-    [HyundaiCarDocs("Genesis G80 Electrified 2023", "Highway Driving Assist (HDA1)", car_parts=CarParts.common([CarHarness.hyundai_k]))],  # Use hyundai_p harness for HDA1
-    CarSpecs(
-        mass=2286,  # ~5038 lbs curb weight from specs
-        wheelbase=3.01,  # 118.5 inches
-        steerRatio=14.0,  # Matches your log
-    ),
+  GENESIS_G80_EV = HyundaiCanFDPlatformConfig(
+    [HyundaiCarDocs("Genesis G80 (2.5T Advanced Trim, with HDA II) 2024", "Highway Driving Assist II", car_parts=CarParts.common([CarHarness.hyundai_p]))],
+    CarSpecs(mass=2280, wheelbase=3.00, steerRatio=14.0),
     flags=HyundaiFlags.EV | HyundaiFlags.CANFD_NO_RADAR_DISABLE,
 )
   GENESIS_G90 = HyundaiPlatformConfig(
