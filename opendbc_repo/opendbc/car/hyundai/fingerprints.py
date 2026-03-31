@@ -547,7 +547,6 @@ FW_VERSIONS = {
   },
   CAR.GENESIS_G80_EV: {
     (Ecu.fwdRadar, 0x7d0, None): [
-      b'\xf1\x00RG3_ SCC -----      1.00 1.02 99110-T1120         ',
       b'\xf1\x00RGev SCC FHCUP      1.00 1.01 99110-JI010         ',
       b'\xf1\x8b "\x04)',
       b'\xf1\x10\x17\xdf\x01\x00',
