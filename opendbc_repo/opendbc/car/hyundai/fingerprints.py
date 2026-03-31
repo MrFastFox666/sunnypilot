@@ -1170,18 +1170,7 @@ FW_VERSIONS = {
       b'\xf1\x00RG3 MFC  AT USA LHD 1.00 1.01 99211-T1200 230607',
       b'\xf1\x00RG3EMFC  AT USA LHD 1.00 1.01 99211-JI010 210419',
       b'\xf1\x8b "\x05&',
-    ],
-    (Ecu.hvac, 0x7b3, None): [
-      b"\xf1\x00RG3 EV97255-JI301CONTROL ASS'Y-DATC  1.03RG3 EV DATC(-) 3.1   ",
-    ],
-    (Ecu.cornerRadar, 0x7b7, None): [
-      b'\xf1\x00RG3 BCW RR 1.00 , 1.01 (u5E"\x006\x00\t',
-      b'\xf1\x8b "\x02\x05 "\x02\x05\x00\x00\x00\x00\x00\x00\x00\x00'
-    ],
-    (Ecu.eps, 0x7d4, None): [
-      b'\xf1\x00RG3 MDPS R 1.00 1.01 57700-JI400 1520',
-    ],
-   
+    ],   
   },
   CAR.KIA_SORENTO_4TH_GEN: {
     (Ecu.fwdCamera, 0x7c4, None): [
