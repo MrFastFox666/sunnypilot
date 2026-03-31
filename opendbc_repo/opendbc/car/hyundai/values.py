@@ -581,7 +581,7 @@ class CAR(Platforms):
       HyundaiCarDocs("Genesis GV70 (3.5T Trim, without HDA II) 2022-23", "All", car_parts=CarParts.common([CarHarness.hyundai_m])),
     ],
     CarSpecs(mass=2280, wheelbase=3.00, steerRatio=14.0),
-    flags=HyundaiFlags.RADAR_SCC | HyundaiFlags.ev,
+    flags=HyundaiFlags.RADAR_SCC | HyundaiFlags.EV,
   )
   GENESIS_GV70_ELECTRIFIED_1ST_GEN = HyundaiCanFDPlatformConfig(
     [
