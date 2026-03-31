@@ -545,7 +545,7 @@ FW_VERSIONS = {
       b'\xf1\x00RG3 MFC  AT USA LHD 1.00 1.01 99211-T1200 230607',
     ],
   },
-  CAR.GENESIS_G80_EV_HDA: {
+  CAR.GENESIS_G80_EV: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00RG3_ SCC -----      1.00 1.02 99110-T1120         ',
       b'\xf1\x00RGev SCC FHCUP      1.00 1.01 99110-JI010         ',
