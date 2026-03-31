@@ -562,8 +562,6 @@ FW_VERSIONS = {
       b'\xf1\x00001', 
     ],
   },
-
-  },
   CAR.GENESIS_G90: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00HI__ SCC F-CUP      1.00 1.01 96400-D2100         ',
