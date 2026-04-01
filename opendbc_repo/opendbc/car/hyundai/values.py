@@ -596,9 +596,9 @@ class CAR(Platforms):
     CarSpecs(mass=2060, wheelbase=3.01, steerRatio=16.5),
     flags=HyundaiFlags.LEGACY,
   )
-  GENESIS_G80_ELECTRIFIED = HyundaiPlatformConfig(
+  GENESIS_G80_ELECTRIFIED = HyundaiCanFDPlatformConfig(
     # TODO: correct wheelbase + mass to finalized figures, assume it matches the 2019
-    [HyundaiCarDocs("Genesis G80 Electrified 2023", "All", car_parts=CarParts.common([CarHarness.hyundai_p]))],
+    [HyundaiCarDocs("Genesis G80 Electrified 2023", "All", car_parts=CarParts.common([CarHarness.hyundai_k]))],
     CarSpecs(mass=2280, wheelbase=3.01, steerRatio=14.0),
     flags=HyundaiFlags.EV,
   )
