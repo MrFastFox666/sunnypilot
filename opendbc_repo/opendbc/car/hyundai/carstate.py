@@ -323,7 +323,7 @@ class CarState(CarStateBase, EsccCarStateBase, MadsCarState, CarStateExt):
       # TODO: this can be removed once we add dynamic support to vl_all
       msgs += [
         # this message is 50Hz but the ECU frequently stops transmitting for ~0.5s
-        ("CRUISE_BUTTONS", 1)
+        ("CRUISE_BUTTONS", 0)
       ]
     return {
       Bus.pt: CANParser(DBC[CP.carFingerprint][Bus.pt], msgs, CanBus(CP).ECAN),
